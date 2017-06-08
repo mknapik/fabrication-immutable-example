@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# frozen_string_literal: true.
 require_relative '../../lib/car'
 require_relative '../../lib/car2'
 
