@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'delegate'
+
 class WordSequencer < SimpleDelegator
   def initialize(length)
     range = (('a' * length)..('z' * length))
